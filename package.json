@@ -1,0 +1,30 @@
+{
+  "name": "afrihostplus-prep_co_za",
+  "version": "1.0.0",
+  "description": "A project to prepare for Afrihost plus project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Paris2020/afrihostplus-prep_co_za.git"
+  },
+  "author": "Nelly Moseki (Frontend Developer)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paris2020/afrihostplus-prep_co_za/issues"
+  },
+  "homepage": "https://github.com/Paris2020/afrihostplus-prep_co_za#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-css-globbing": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
