@@ -1,0 +1,61 @@
+// BASE FONTS
+// =============================================================================
+$base-font-size:    16px;
+$base-line-height:  28px;
+
+// FONT INCLUDES / FONTFACE
+// =============================================================================
+
+$town-scape: 'Townscape';
+$mexican-tequilla: 'MexicanTequila';
+$mexican-tequilla-Italic: 'MexicanTequila-Italic';
+
+$roboto-light: 'Roboto-Light';
+$roboto-bold: 'Roboto-Bold';
+$roboto-italic: 'Roboto-Italic';
+$roboto-black: 'Roboto-Black';
+
+// FONT INCLUDES
+// =============================================================================
+
+@font-face {
+  font-family: $roboto-light;
+  font-style: normal;
+  src: url('fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $roboto-bold;
+  font-style: normal;
+  src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $roboto-italic;
+  font-style: normal;
+  src: url('fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $roboto-black;
+  font-style: normal;
+  src: url('fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $town-scape;
+  font-style: normal;
+  src: url('fonts/Townscape.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $mexican-tequilla;
+  font-style: normal;
+  src: url('fonts/MexicanTequila.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $mexican-tequilla-Italic;
+  font-style: normal;
+  src: url('fonts/MexicanTequila-Italic.ttf') format('truetype');
+}

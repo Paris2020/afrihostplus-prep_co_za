@@ -1,0 +1,33 @@
+// MIXINS
+// =============================
+
+@mixin opacity($val) {
+  opacity: $val;
+}
+
+@mixin text-shadow($val...){
+  text-shadow: #{$val};
+}
+
+@mixin border-radius($val) {
+  border-radius: $val;
+}
+
+@mixin rotate($val){
+  transform: rotate($val);
+}
+
+@mixin transition($vals...) {
+  transition: #{$vals};
+}
+
+@mixin transform($val){
+  transform: scale($val);
+}
+
+@mixin animation($val...){
+  @keyframes action {
+    0% { transform: translateY($val); }
+    100% { transform: translateY($val); }
+  }
+}
