@@ -4,7 +4,7 @@
   "description": "A project to prepare for Afrihost plus project",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp compile"
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
