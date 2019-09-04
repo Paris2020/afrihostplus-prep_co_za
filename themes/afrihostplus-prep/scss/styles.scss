@@ -14,8 +14,8 @@
  dependencies shouldn't be a problem.
 */
 
+@import "utils/mixins-legacy";
 @import "settings/all";
 @import "base/all";
 @import "components/all";
-@import "utils/mixins_legacy";
 @import "fontawesome/fontawesome";

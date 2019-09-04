@@ -9,7 +9,7 @@ html {
 }
 
 // HEADER STYLES
-// =============================================================================
+// =============================
 h1,
 h2,
 h3,
@@ -19,6 +19,18 @@ h6 {
   color: $black;
 }
 
-h1,h2{
+h1,h2 {
   text-align: center;
+}
+
+h1 {
+  font-family: $town-scape;
+  font-size: $gutter*4;
+  margin: $gutter*2 0;
+}
+
+h2 {
+  font-family: $mexican-tequilla;
+  font-size: $gutter*2;
+  margin: $gutter 0;
 }
