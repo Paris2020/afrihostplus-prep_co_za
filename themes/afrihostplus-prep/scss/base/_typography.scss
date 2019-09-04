@@ -5,7 +5,8 @@
 // =============================
 html {
   font-family: $roboto-light;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 // HEADER STYLES
@@ -33,4 +34,14 @@ h2 {
   font-family: $mexican-tequilla;
   font-size: $gutter*2;
   margin: $gutter 0;
+}
+
+h3 {
+  font-family: $roboto-bold;
+  font-size: $gutter;
+  line-height: 25px;
+}
+
+p {
+  margin: 10px 0;
 }
